@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+.body{
+    background: #000 url(
+        '../img/Bgimageblur.jpg'
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    width: 120px;
+}
+.navbar ul{
+    background: #231f20;
+    width: 120px;
+    text-align:center ;
+    border-bottom-right-radius: 25px;
+    margin-top: -7px;
+
+}
+.navbar ul li{
+    list-style: none;
+
+}
+.navbar ul li a{
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.navbar ul li a:hover{
+    color: #019791; 
+}
+.navbar ul .active a{
+    color: #019791;
+}
+.banner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    text-align: center;
+}
+.banner h5{
+    font-size: 1.8rem;
+    color: #ccc;
+    font-family: 'Lobster', cursive;
+}
+.banner h1{
+    font-size: 6rem;
+    color: #eee;
+}
+.banner h1 span{
+    background: rgba(1, 151, 145, 0.5);
+}
+.banner p{
+    font-size: 1.5rem;
+    color:#ccc ;
+}
+.about {
+    color: #ccc;
+    max-width: 600px;
+    width:90%;
+    margin: 20vh auto;
+    background: rgba(1, 151, 145, 0.5);
+    padding: 10px; 
+    border-radius: 10px;   
+}
+.about h4{
+    color: #eee;
+    font-size:2rem ;
+    padding:20px 0;
+    text-align: center;
+}
+.about p {
+    color: #eee;
+    line-height: 1.5rem;
+    padding: 20px;
+    
+}
